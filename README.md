@@ -6,7 +6,7 @@ boosty-dl is an extension that automatically extracts and displays audio source 
 ## Features
 
 - Works exclusively on Boosty.to pages.
-- Dynamically updates the page to include audio source links when content is loaded [Link text Here](https://link-url-here.org)asynchronously.
+- Dynamically updates the page to include audio source links when content is loaded asynchronously.
 - Updates the audio source links when the user navigates via links on the site.
 
 ## Installation
