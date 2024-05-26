@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "boosty-dl",
+    "version": "1.0",
+    "description": "Extracts links from audio links for offline enjoyment",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://boosty.to/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "48": "boosty-dl.png"
+    }
+  }
+  
