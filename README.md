@@ -1,5 +1,6 @@
 # boosty-dl
 ![blurred screenshot of an audio file on boosty.to with a download button beneath](banner.png "Banner")
+
 boosty-dl is an extension that automatically extracts and displays audio source links from Boosty.to pages. This extension identifies audio elements on the page and adds the direct link to the audio source below each audio player.
 
 ## Features
