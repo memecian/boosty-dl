@@ -33,8 +33,8 @@ TODO.
 ## Files
 
 - `manifest.json`: The manifest file that defines the extension's properties and permissions.
-- `content.js`: The content script that contains the logic for detecting and processing audio players.
-- `icon.png`: The icon for the extension (optional, replace with your own if desired).
+- `boosty-dl.js`: The content script that contains the logic for detecting and processing audio players.
+- `boosty-dl.png`: The icon for the extension (optional, replace with your own if desired).
 
 ## Development
 
