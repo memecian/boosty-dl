@@ -10,7 +10,6 @@ Boosty-dl is an extension that automatically extracts and displays audio source 
 - Updates the audio source links when the user navigates via links on the site.
 
 ## Installation
-
 ### From release
 TODO: Provide zip or bundle
 
@@ -22,19 +21,13 @@ TODO: Provide zip or bundle
 4. Click "Load Temporary Add-on".
 5. Select the `manifest.json` file from the downloaded repository.
 #### Chromium-based browsers
-TODO.
+Warning: Yet untested.
 
 ## Usage
 
 1. Navigate to any Boosty.to page with audio content.
 2. The extension will automatically detect audio players and add a link to the audio source below each player.
 3. Clicking on links within the site will trigger the extension to update the page and include any newly loaded audio sources.
-
-## Files
-
-- `manifest.json`: The manifest file that defines the extension's properties and permissions.
-- `boosty-dl.js`: The content script that contains the logic for detecting and processing audio players.
-- `boosty-dl.png`: The icon for the extension (optional, replace with your own if desired).
 
 ## Development
 
