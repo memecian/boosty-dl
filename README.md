@@ -6,20 +6,31 @@ boosty-dl is an extension that automatically extracts and displays audio source 
 ## Features
 
 - Works exclusively on Boosty.to pages.
-- Dynamically updates the page to include audio source links when content is loaded asynchronously.
+- Dynamically updates the page to include audio source links when content is loaded [Link text Here](https://link-url-here.org)asynchronously.
 - Updates the audio source links when the user navigates via links on the site.
 
 ## Installation
 ### From release
-TODO: Provide packaged extensions.
-### From source
-#### Firefox
+#### Firefox-based browsers
+1. Download the boosty-dl-firefox.zip file from [releases](https://github.com/memecian/boosty-dl/releases).
+2. Open your browser and go to about:addons.
+3. Click the gear icon at the top right and select "Install Add-on From File...".
+4. Select the boosty-dl-firefox.zip file you downloaded.
+
+#### Chromium-based browsers
+1. Download the boosty-dl-chrome.crx file from [releases](https://github.com/memecian/boosty-dl/releases).
+2. Open your browser and go to `chrome://extensions/`.
+3. Enable "Developer mode" by toggling the switch in the top right corner.
+4. Click "Load from file" and select the .crx file you downloaded.
+
+#### From source
+#### Firefox-based browsers 
 1. Clone or download this repository to your local machine.
 2. Open a terminal and navigate to the directory containing the extension files.
 3. Compress the contents of the directory into a ZIP file. Make sure the ZIP file contains `manifest.json` **at the root**, not inside a subdirectory.
 4. Open Firefox and go to about:addons.
 5. Click the gear icon at the top right and select "Install Add-on From File...".
-6. Select the boosty-dl.zip file you created.
+6. Select the .zip file you created.
 
 #### Chromium-based browsers (e.g., Google Chrome)
 Warning: Yet untested.
@@ -28,6 +39,7 @@ Warning: Yet untested.
 2. Open your browser and go to `chrome://extensions/`.
 3. Enable "Developer mode" by toggling the switch in the top right corner.
 4. Click "Load unpacked" and select the directory containing your extension files.
+
 ## Usage
 
 1. Navigate to any Boosty.to page with audio content.
@@ -38,7 +50,7 @@ Warning: Yet untested.
 
 If you want to modify or extend the functionality of this extension:
 
-1. Make your changes to the `content.js` file or other parts of the project.
+1. Make your changes to the `boosty-dl.js` file or other parts of the project.
 2. Reload the extension in Firefox by going to `about:debugging`, selecting "This Firefox", and clicking "Reload" next to the boosty-dl extension.
 
 ## Contributing
