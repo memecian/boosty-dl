@@ -9,7 +9,7 @@
   "content_scripts": [
     {
       "matches": ["https://boosty.to/*"],
-      "js": ["boosty_dl.js"]
+      "js": ["boosty-dl.js"]
     }
   ],
   "icons": {
