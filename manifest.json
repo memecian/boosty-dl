@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Boosty Audio Link Extractor",
+  "version": "1.0",
+  "description": "Extracts audio links from Boosty.to",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://boosty.to/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  }
+}
